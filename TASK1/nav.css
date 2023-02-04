@@ -1,0 +1,232 @@
+/* .container-fluid{
+
+    background-color: lavender;
+} */
+
+.nav{
+    border:0.1px solid;
+    border-color: RGB(232, 232, 235);
+
+}
+.a{
+    width: 50%;
+    height: 35px;
+    /* background-color: aqua; */
+    float: left;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+/* .lefttop{
+ 
+    display: flex;
+    flex-direction: row;
+    float: left;
+    }  */
+
+    .star{
+        float: left;
+    }
+    
+    
+   /* previousname was dropdwon */
+    .shopdownbtn{
+       margin-left: -18px;
+       float: left;
+       
+      
+    }
+    
+    .shopist{
+        font-size:17px;
+        font-weight:500;
+    }
+
+    
+    
+    .addw{
+       /* font-size:10px; 
+         padding:1px; 
+      border-radius:4px;
+      
+      margin-left:-5px;
+      border-color: RGB(232, 232, 235);
+      border:0.1px solid;
+      float: left; */
+
+      padding: 1px;
+      font-size:10px;
+    background-color: white;
+    border:0.1px solid;
+    border-color: RGB(232, 232, 235);
+    border-radius:4px;
+    }
+   
+    
+    .plus{
+        font-size:13px;
+        color: RGB(103, 111, 111);
+        font-weight: bolder;
+    }
+    .cmd{
+        opacity:.8 ;
+    }
+
+/*end of a  */
+    
+   .b{
+    width: 50%;
+    height: 35px;
+    
+    
+    /* background-color: blue;  */
+    
+   }
+
+  .zoomout{
+    border-color:RGB(232, 232, 235) ;
+    background-color: white;
+    border-radius: 4px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 6px;
+
+  }
+
+  .pastone{
+    font-size:10px;
+    background-color: white;
+    border:0.1px solid;
+    border-color: RGB(232, 232, 235);
+    border-radius:4px;
+    float: right;
+    margin-top:10px ;
+    margin-right: 7px;
+    padding-top:3px ;
+    padding-bottom: 3px;
+    padding-left:5px;
+    
+  }
+
+  .oneh{
+    float: left;
+    
+    padding-left:5px;
+    padding-right: px;
+    color:rgb(93, 93, 93);
+    background-color:RGB(232, 232, 235);
+    border-radius: 4px;
+  }
+
+
+/*end of b  */
+
+
+
+   .c{  
+
+     width: 50%;
+    height: 35px;
+    /* background-color: aquamarine; */
+    float: left;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+    .search{
+        font-size:13px; ;
+        border: none;
+        color:RGB(36, 124, 199);
+        background-color: white;
+        margin-left:10px;
+
+    }
+
+   .saved-views{
+    font-size:10px;
+    background-color: white;
+    border:0.1px solid;
+    border-color: RGB(232, 232, 235);
+    border-radius:4px;
+    padding-top:1px ;
+    padding-bottom: 1px;
+    padding-left: 3px; 
+    /* padding-right: 50px; */
+
+   }
+   .fa-sort-down{
+    display: flex;
+    
+    float: right;
+    padding-left:50px;
+    padding-right:-10px;
+   }
+  
+
+   .btn-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    
+   }
+
+   .cluster{
+    font-size:10px;
+    background-color:RGB(232, 232, 235);
+    border: 0.1px solid;
+    border-radius:4px;
+   padding: 1px;
+   border-color: RGB(232, 232, 235);
+   color: RGB(103, 111, 111);
+}
+   .clusterstar{
+    font-size:10px;
+    background-color:white;
+    border: 0.1px solid;
+    border-radius:4px;
+   padding: 1px;
+   border-color: RGB(232, 232, 235);
+ 
+}
+
+/* .star{
+    font-weight: bolder;
+
+}  cluster star ig*/
+
+.renameicon{
+    background-color: white;
+    border: none;
+}
+
+    /* end of c */
+   
+.d{
+    width: 50%;
+    height: 35px;
+    float: left;
+    /* background-color: burlywood; */
+   }
+
+   .settingsicon{
+    background-color: white;
+    border: none;
+    float: right;
+}
+
+.computericon{
+    background-color: white;
+    border: none;
+    float: right;
+}
+.keyicon{
+    background-color: white;
+    border: none;
+    float: right;   
+}
+
+   /* end of d */

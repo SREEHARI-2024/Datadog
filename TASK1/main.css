@@ -1,0 +1,341 @@
+/* main middle screen */
+.main{
+    height:1200px;
+    width: 100%;
+    background-color: #F6F6F6;
+    border: 0.1px solid;
+    border-color:rgb(214, 212, 212);
+}
+.couch{
+    height:210px;
+    width: 180px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    font-weight:900;
+    font-size: 20px;
+    /* padding-top:75px ; put bfore justify content nd all */
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 0.1px solid;
+    border-color:rgb(214, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datadogimg{
+    float: right;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.vrline {
+    width:1px;
+    background-color:rgb(214, 212, 212);
+    float: right;
+    height: 210px;
+    margin-top: 10px;
+    margin-right:-165px;
+   
+    
+
+}
+
+
+.slotop{
+    float: left;
+    margin-left: 14px;
+    margin-top: 10px;
+    height: 210px;
+    width: 950px;
+    background-color: white;
+    border: 0.1px solid;
+    border-color:rgb(214, 212, 212);
+}
+.sloapp{
+    font-size: 13px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.slodown{
+    height: 185px;
+    width: 949px;
+    background-color:rgb(253, 253, 253);
+    border:0.1px solid;
+    border-width:0.1px 0px 0px 0px ;
+    border-color:rgb(214, 212, 212);
+    margin-top: -8px;    
+}
+
+.slodowntext{
+    height: 100px;
+    width: 28%;
+float: left;
+}
+
+.overall{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.demo{
+    font-size: 12PX;
+    font-weight:bold;
+    margin-left: 18px;
+    margin-top: 45px;
+}
+
+.bardetails{
+    /* margin-left:36% ; */
+    width:34%;
+    height: 180px;
+    /* background-color: rgb(104, 185, 209); */
+   float: left; 
+
+   /* display: flex;
+   align-items: center;
+   justify-items: center; */
+
+
+}
+
+.leftbar{
+ float: left;
+
+}
+
+.rightbar{
+    /* margin-left:70%; */
+    float:right;
+
+}
+
+.pastdays{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.nine{
+    margin-top: -14px;
+    font-size: 28px;
+    font-weight:800;
+    color: #267C3F;
+text-align: center;
+}
+
+.hundred{
+    margin-top: -15px;
+    color: #267C3F;
+    font-weight: 700;
+
+text-align: center;
+}
+
+.budget{
+    font-weight: 400;
+    font-size:13px ;
+    color: #808484;
+    text-align: center;
+
+}
+.target{
+    margin-top: -10px;
+    font-size:13px ;
+    color: #808484;
+    text-align: center;
+
+
+}
+
+
+.item1{
+    /* margin-left: 10px;
+    margin-top: 10px;
+    background-color:#41C564;
+    border:0.5px solid;
+    border-color:#d6d7d6;
+    width: 25px;
+    height: 15%;
+    float: left; */
+    clear: both;
+}
+
+.greenbox{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color:#41C564;
+    border:0.5px solid;
+    border-color:#d6d7d6;
+    width: 329px;
+    height: 15%;
+}
+
+.boxtop{
+color: white;
+font-size: 13px;
+padding-left: 3px;
+padding-top: 3px;
+
+}
+
+.hrline{
+   
+   
+    margin-top: 1px;
+    color:#ffffff;
+
+}
+
+.redbox{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color:#EB364A;
+    border:0.5px solid;
+    border-color:#d6d7d6;
+    width: 329px;
+    height: 15%;
+}
+
+/* .redtop{
+color: white;
+font-size: 13px;
+padding-left: 3px;
+padding-top: 3px;
+
+} */
+
+.orangebox{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color:#F99F01;
+    border:0.5px solid;
+    border-color:#d6d7d6;
+    width: 329px;
+    height: 15%;
+}
+
+.timelabel{
+    float: right;
+    margin-right:3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color:gray;
+    background-color: #F6F6F6;
+    border-radius: 4px;
+}
+
+.bigtext{
+
+    color: white;
+    font-size: 100px;
+    font-weight:bolder ;
+    padding-left: 32px;
+    margin-top: -10px;
+    
+    
+
+}
+
+.smalltext{
+
+    color: white;
+    font-size: 35px;
+    /* font-weight:bolder ; */
+    margin-bottom: 10px;
+    margin-top: -20px;
+
+
+}
+/* .boxtop{
+color: white;
+font-size: 13px;
+padding-left: 3px;
+padding-top: 3px;
+
+} */
+
+
+
+/* .greentop{
+color: white;
+font-size: 13px;
+padding-left: 3px;
+padding-top: 3px;
+
+} */
+
+.graph{
+ background-color: rgb(255, 255, 255);
+ width: 48.5%;
+ height: 150px;
+ margin-top: 10px;
+ margin-left: 10px;
+float: left;
+border:0.1px solid;
+border-color:rgb(214, 212, 212);
+
+}
+
+.graphbar{
+margin-top: -8px;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border:0.1px solid;
+    border-width:0.1px 0px 0px 0px ;
+    border-color:rgb(214, 212, 212);
+}
+
+
+.graphtext{
+    font-size: 13px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+/* .container1 {
+    position: absolute;
+width: 60%;
+height: 33%;
+left: 18px;
+top: 14px;
+margin: 3px;
+
+background: #2F323A;
+border: 1px solid #2F323A;
+} */
+
+/* .hrlinegraph
+{
+    margin-top:-5px;
+    color: rgb(128, 128, 128);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
